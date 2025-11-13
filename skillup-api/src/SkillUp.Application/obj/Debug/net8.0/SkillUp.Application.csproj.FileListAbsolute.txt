@@ -13,3 +13,4 @@
 /Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/obj/Debug/net8.0/refint/SkillUp.Application.dll
 /Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/obj/Debug/net8.0/SkillUp.Application.pdb
 /Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/obj/Debug/net8.0/ref/SkillUp.Application.dll
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/obj/Debug/net8.0/SkillUp.Application.sourcelink.json

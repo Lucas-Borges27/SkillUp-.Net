@@ -1,0 +1,192 @@
+{
+  "info": {
+    "_postman_id": "a52a6b12-0d6e-4ed2-a7df-0a4d6947a743",
+    "name": "SkillUp API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "skillup-cli"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/health",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "health"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Listar usuários (search)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/usuarios/search?filter=ana&page=1&size=5",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "usuarios",
+            "search"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Criar usuário",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome\": \"Teste Postman\",\n  \"email\": \"postman@skillup.dev\",\n  \"senha\": \"SenhaSegura1\",\n  \"areaInteresse\": \"Backend\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/usuarios",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "usuarios"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buscar usuário por ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/usuarios/{{usuarioId}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "usuarios",
+            "{{usuarioId}}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Criar curso",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome\": \"API com Postman\",\n  \"categoria\": \"Backend\",\n  \"cargaHoraria\": 24,\n  \"dificuldade\": \"Intermediario\",\n  \"descricao\": \"Curso criado via Postman\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/cursos",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "cursos"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Listar cursos (search)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/cursos/search?categoria=Backend",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "cursos",
+            "search"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Criar progresso",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"usuarioId\": 1,\n  \"cursoId\": 1,\n  \"status\": \"EmAndamento\",\n  \"porcentagem\": 20\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/progresso",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "progresso"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Listar progressos (search)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/progresso/search?usuarioId=1",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "progresso",
+            "search"
+          ],
+          "query": [
+            {
+              "key": "usuarioId",
+              "value": "1"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:5000"
+    },
+    {
+      "key": "usuarioId",
+      "value": "1"
+    }
+  ]
+}

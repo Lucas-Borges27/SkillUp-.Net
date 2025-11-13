@@ -9,3 +9,4 @@
 /Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/obj/Debug/net8.0/refint/SkillUp.Domain.dll
 /Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/obj/Debug/net8.0/SkillUp.Domain.pdb
 /Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/obj/Debug/net8.0/ref/SkillUp.Domain.dll
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/obj/Debug/net8.0/SkillUp.Domain.sourcelink.json

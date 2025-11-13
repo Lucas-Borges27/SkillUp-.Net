@@ -14,21 +14,17 @@ API de trilhas de aprendizado com Oracle/EF Core, construída seguindo arquitetu
    - Oracle Database / Oracle XE (ou outro alvo compatível com o provider `Oracle.EntityFrameworkCore`)
    - Ferramenta `dotnet-ef`: `dotnet tool install --global dotnet-ef`
 
-2. **Escolher provedor**
-   - Para testes rápidos, mantenha `"Database": { "UseInMemory": true }` em `appsettings.json`. O `SkillUpDbSeeder` pré-carrega alguns usuários/cursos ao subir a API.
-   - Para usar Oracle, defina `UseInMemory` como `false` e configure `ConnectionStrings:DefaultConnection` (ou a env `SKILLUP_CONNECTION`) com sua instância. Nesse modo nenhum seed automático é executado e suas tabelas atuais são preservadas.
-
-3. **Restaurar & compilar**
+2. **Restaurar & compilar**
    ```bash
    cd skillup-api
    dotnet restore
    dotnet build
    ```
-4. **Executar**
+3. **Executar**
    ```bash
    dotnet run --project src/SkillUp.Api/SkillUp.Api.csproj
    ```
-   - Swagger/OpenAPI: `https://localhost:5001/swagger`
+   - Swagger/OpenAPI: `http://localhost:5000/swagger`
    - Health check: `GET /health`
 
 ## Endpoints principais
@@ -75,15 +71,10 @@ curl -X PUT https://localhost:5001/api/progresso/1 \
 - Model binding inválido gera `ValidationProblemDetails` (400).
 - Domínio verifica: emails válidos, senhas ≥8 chars, status coerente com datas, carga horária > 0, porcentagem 0-100. Violações retornam 400 com mensagem clara.
 
-## Scripts úteis
-- SQL original: [`CREATE_TABLE.sql`](CREATE_TABLE.sql)
-- Regenerar migração (se alterar modelos):
-  ```bash
-  dotnet ef migrations add <Nome> -p src/SkillUp.Infrastructure -s src/SkillUp.Api -o Migrations
-  ```
-- Atualizar banco após nova migração: mesmo comando `database update` descrito acima.
-
 ## Próximos passos sugeridos
 - Adicionar autenticação/JWT.
 - Criar coleção Postman/HTTP file.
 - Cobrir regras críticas com testes automatizados.
+
+## Artefatos úteis
+- Coleção Postman: [`postman/SkillUp.postman_collection.json`](postman/SkillUp.postman_collection.json) (usa `{{baseUrl}}` apontando para sua porta/host)

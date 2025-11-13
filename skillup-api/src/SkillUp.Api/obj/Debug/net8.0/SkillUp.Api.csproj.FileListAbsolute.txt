@@ -129,3 +129,4 @@
 /Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Api/obj/Debug/net8.0/SkillUp.Api.genruntimeconfig.cache
 /Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Api/obj/Debug/net8.0/ref/SkillUp.Api.dll
 /Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Api/obj/Debug/net8.0/SkillUp.Api.sourcelink.json
