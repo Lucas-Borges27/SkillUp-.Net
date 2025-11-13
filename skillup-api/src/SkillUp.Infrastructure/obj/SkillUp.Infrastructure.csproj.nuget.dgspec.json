@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/SkillUp.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/SkillUp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/SkillUp.Domain.csproj",
+        "projectName": "SkillUp.Domain",
+        "projectPath": "/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/SkillUp.Domain.csproj",
+        "packagesPath": "/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/.dotnet/.nuget/packages/",
+        "outputPath": "/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/.dotnet/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/SkillUp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/SkillUp.Infrastructure.csproj",
+        "projectName": "SkillUp.Infrastructure",
+        "projectPath": "/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/SkillUp.Infrastructure.csproj",
+        "packagesPath": "/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/.dotnet/.nuget/packages/",
+        "outputPath": "/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/.dotnet/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/SkillUp.Domain.csproj": {
+                "projectPath": "/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/SkillUp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.21.121, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

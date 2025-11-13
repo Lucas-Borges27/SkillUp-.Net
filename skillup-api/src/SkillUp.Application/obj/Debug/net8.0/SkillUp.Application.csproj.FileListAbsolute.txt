@@ -1,0 +1,15 @@
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/bin/Debug/net8.0/SkillUp.Application.deps.json
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/bin/Debug/net8.0/SkillUp.Application.dll
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/bin/Debug/net8.0/SkillUp.Application.pdb
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/bin/Debug/net8.0/SkillUp.Domain.dll
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/bin/Debug/net8.0/SkillUp.Domain.pdb
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/obj/Debug/net8.0/SkillUp.Application.csproj.AssemblyReference.cache
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/obj/Debug/net8.0/SkillUp.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/obj/Debug/net8.0/SkillUp.Application.AssemblyInfoInputs.cache
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/obj/Debug/net8.0/SkillUp.Application.AssemblyInfo.cs
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/obj/Debug/net8.0/SkillUp.Application.csproj.CoreCompileInputs.cache
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/obj/Debug/net8.0/SkillUp..B67EEB72.Up2Date
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/obj/Debug/net8.0/SkillUp.Application.dll
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/obj/Debug/net8.0/refint/SkillUp.Application.dll
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/obj/Debug/net8.0/SkillUp.Application.pdb
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Application/obj/Debug/net8.0/ref/SkillUp.Application.dll

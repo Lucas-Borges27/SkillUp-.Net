@@ -1,0 +1,15 @@
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/obj/Debug/net8.0/SkillUp.Infrastructure.csproj.AssemblyReference.cache
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/obj/Debug/net8.0/SkillUp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/obj/Debug/net8.0/SkillUp.Infrastructure.AssemblyInfoInputs.cache
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/obj/Debug/net8.0/SkillUp.Infrastructure.AssemblyInfo.cs
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/obj/Debug/net8.0/SkillUp.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/bin/Debug/net8.0/SkillUp.Infrastructure.deps.json
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/bin/Debug/net8.0/SkillUp.Infrastructure.dll
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/bin/Debug/net8.0/SkillUp.Infrastructure.pdb
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/bin/Debug/net8.0/SkillUp.Domain.dll
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/bin/Debug/net8.0/SkillUp.Domain.pdb
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/obj/Debug/net8.0/SkillUp..08AE6945.Up2Date
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/obj/Debug/net8.0/SkillUp.Infrastructure.dll
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/obj/Debug/net8.0/refint/SkillUp.Infrastructure.dll
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/obj/Debug/net8.0/SkillUp.Infrastructure.pdb
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Infrastructure/obj/Debug/net8.0/ref/SkillUp.Infrastructure.dll

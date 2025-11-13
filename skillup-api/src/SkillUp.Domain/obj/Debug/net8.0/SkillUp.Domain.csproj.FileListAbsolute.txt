@@ -1,0 +1,11 @@
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/bin/Debug/net8.0/SkillUp.Domain.deps.json
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/bin/Debug/net8.0/SkillUp.Domain.dll
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/bin/Debug/net8.0/SkillUp.Domain.pdb
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/obj/Debug/net8.0/SkillUp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/obj/Debug/net8.0/SkillUp.Domain.AssemblyInfoInputs.cache
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/obj/Debug/net8.0/SkillUp.Domain.AssemblyInfo.cs
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/obj/Debug/net8.0/SkillUp.Domain.csproj.CoreCompileInputs.cache
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/obj/Debug/net8.0/SkillUp.Domain.dll
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/obj/Debug/net8.0/refint/SkillUp.Domain.dll
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/obj/Debug/net8.0/SkillUp.Domain.pdb
+/Users/lucasborges/Documents/Fiap/GS/DotNet/skillup-api/src/SkillUp.Domain/obj/Debug/net8.0/ref/SkillUp.Domain.dll
